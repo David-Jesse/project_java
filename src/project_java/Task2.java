@@ -10,17 +10,16 @@ public class Task2 {
 		int x, y, z;
 		int result;
 		
-		System.out.print("Enter first integer: ");
+		System.out.print("Enter first integer: "); //prompt for input
 		x = input.nextInt();
 		
-		System.out.print("Enter second integer: ");
+		System.out.print("Enter second integer: "); //prompt for input
 		y = input.nextInt();
 		
-		System.out.print("Enter third integer: ");
+		System.out.print("Enter third integer: "); //prompt for input
 		z = input.nextInt();
 		
-		result = x * y * z;
+		result = x * y * z; //calculate product of numbers
 		System.out.printf("Product is: %d", result);
-		
-	}
-}
+	} // end method main	
+} //end class product
